@@ -1,0 +1,4 @@
+Projecte d'en David Guillén i meu del curs d'Arduino avançat de l'AESS.
+
+Consisteix en dos Arduinos, l'esclau, el Leonardo, que controla un motor de corrent continua i el màster, Uno, que fa de servidor web.
+Ambdós estan connectats per port sèrie (UART, pins rxtx). L'esclau envia informació sobre la intensitat que consumeix el motor, ho reb el màster i ho serveix per HTTP. El màster pot controlar la velocitat i la direccio en que gira el motor de l'esclau.
